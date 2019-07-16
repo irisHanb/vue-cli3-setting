@@ -32,7 +32,7 @@ export default {
   height: 100vh;
 }
 .nav {
-  margin-top: 5rem;
+  padding-top: 5rem;
   color: #fff;
   a {
     padding: 1em;
