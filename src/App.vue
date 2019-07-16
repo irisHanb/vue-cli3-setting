@@ -1,11 +1,13 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link>|
-      <router-link to="/event01">event01</router-link>|
-      <router-link to="/event02">event02</router-link>
+    <div class="nav">
+      <router-link to="/">Intro</router-link>|
+      <router-link to="/event01">About</router-link>|
+      <router-link to="/event02">Portfolio</router-link>
     </div>
-    <router-view />
+    <transition name="fade" mode="out-in">
+      <router-view></router-view>
+    </transition>
   </div>
 </template>
 
@@ -18,23 +20,31 @@ export default {
 };
 </script>
 
-
 <style lang="scss">
 #app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+
+  height: 100vh;
 }
-#nav {
-  padding: 30px;
+.nav {
+  margin-top: 5rem;
+  color: #fff;
   a {
-    font-weight: bold;
-    color: #2c3e50;
-    &.router-link-exact-active {
-      color: #42b983;
-    }
+    padding: 1em;
+  }
+}
+.logo {
+  a {
+    color: #fff;
+    font-size: 2rem;
+    padding: 1em;
+    background-color: #dee2e6;
+    border-radius: 50%;
   }
 }
 </style>
