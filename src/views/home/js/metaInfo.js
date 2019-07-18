@@ -1,5 +1,5 @@
 const metaInfo = {
-  title: 'vue-cli3-setting :: Home',
+  title: 'hanbrang :: Home',
   meta: [
     {
       property: 'og:title',

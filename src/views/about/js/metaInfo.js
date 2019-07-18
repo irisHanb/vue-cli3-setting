@@ -8,7 +8,7 @@ const metaInfo = {
     },
     {
       property: 'og:url',
-      content: 'http://localhost:8080/about',
+      content: 'http://hanbrang.dothome.co.kr/about',
       vmid: 'og:url'
     },
     {

@@ -13,7 +13,7 @@ const metaInfo = {
     },
     {
       property: 'og:url',
-      content: 'http://localhost:8080/portfolio',
+      content: 'http://hanbrang.dothome.co.kr/portfolio',
       vmid: 'og:url'
     },
     {

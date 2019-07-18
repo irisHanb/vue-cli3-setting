@@ -12,8 +12,15 @@
 </template>
 <script>
 import metaInfo from "../js/metaInfo";
+import produce from "immer";
+
 export default {
-  metaInfo
+  metaInfo: produce(metaInfo, draft => {
+    draft.meta.push({
+      name: "viewport",
+      content: "width=720, user-scalable=no"
+    });
+  })
 };
 </script>
 <style lang="scss">
