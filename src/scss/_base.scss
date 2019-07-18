@@ -24,10 +24,13 @@ a:visited {
 
   display: flex;
   justify-content: center;
-  align-items: center;
 
+  &__contents {
+    margin-top: 30vh;
+  }
   &__title {
     font-size: 3rem;
+    font-weight: bold;
   }
   &__texts {
     margin-top: 1em;

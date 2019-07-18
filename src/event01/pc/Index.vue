@@ -1,6 +1,6 @@
 <template>
   <div class="section event01">
-    <div class="contents">
+    <div class="section__contents">
       <p class="section__title">About</p>
       <div class="section__texts">
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis, beatae! Sunt nemo provident minima aliquam! Exercitationem perspiciatis quia recusandae mollitia reiciendis sit autem nemo possimus, aut maxime velit totam facilis.

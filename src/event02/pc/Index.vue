@@ -1,8 +1,8 @@
 <template>
   <div class="section event02">
-    <div class="contents">
+    <div class="section__contents">
       <p class="section__title">Portfolio</p>
-      <ul class="section__contents">
+      <ul class="items">
         <li v-for="item in 6" class="item"></li>
       </ul>
       <div class="section__texts">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</div>
@@ -15,12 +15,9 @@
 .event02 {
   background-color: #1864ab;
 
-  .section {
-    &__contents {
-      margin-top: 1em;
-      display: flex;
-      justify-content: space-around;
-    }
+  .items {
+    margin-top: 3em;
+    display: flex;
   }
 
   .item {

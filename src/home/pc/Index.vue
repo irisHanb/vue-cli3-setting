@@ -1,8 +1,7 @@
 <template>
   <div class="section home">
-    <div class="contents">
-      <p class="section__title">be YOUR self</p>
-
+    <div class="section__contents">
+      <p class="section__title">Be Your Self</p>
       <div class="section__texts">
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis, beatae! Sunt nemo provident minima aliquam! Exercitationem perspiciatis quia recusandae mollitia reiciendis sit autem nemo possimus, aut maxime velit totam facilis.
         Optio, aliquid. Quas mollitia fuga soluta iusto natus minus voluptatum, laborum perspiciatis modi nulla! Quia, suscipit! Illo maiores atque fuga. Veniam, quo cum aliquid officia nostrum repellendus natus pariatur porro?
@@ -20,11 +19,6 @@ export default {};
   height: 100%;
   outline: 1px solid blue;
   background-color: #c2255c;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
 
   .section {
     &__texts {
