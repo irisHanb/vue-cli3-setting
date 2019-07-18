@@ -10,6 +10,13 @@
     </div>
   </div>
 </template>
+<script>
+import metaInfo from "../js/metaInfo";
+export default {
+  metaInfo
+};
+</script>
+
 
 <style lang="scss">
 .event01 {

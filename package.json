@@ -5,8 +5,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
-    "deploy": "bash deploy.sh"
+    "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "core-js": "^2.6.5",
@@ -23,7 +22,9 @@
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
     "node-sass": "^4.9.0",
+    "prerender-spa-plugin": "^3.4.0",
     "sass-loader": "^7.1.0",
+    "vue-meta": "^2.0.5",
     "vue-template-compiler": "^2.6.10"
   },
   "eslintConfig": {

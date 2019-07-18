@@ -1,3 +1,21 @@
+const path = require('path');
+const PrerenderSpaPlugin = require('prerender-spa-plugin');
+
+const productionPlugins = [
+  new PrerenderSpaPlugin({
+    staticDir: path.resolve(__dirname, 'dist'),
+    routes: ['/', '/event01', '/event02'],
+    renderer: new PrerenderSpaPlugin.PuppeteerRenderer({
+      renderAfterElementExists: '#app'
+    })
+  })
+];
+
 module.exports = {
-  publicPath: process.env.NODE_ENV === 'production' ? '/vue-cli3-setting/' : '/'
+  lintOnSave: false,
+  configureWebpack: config => {
+    if (process.env.NODE_ENV === 'production') {
+      config.plugins.push(...productionPlugins);
+    }
+  }
 };
