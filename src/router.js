@@ -24,17 +24,17 @@ export default new Router({
     {
       path: '/',
       name: 'home',
-      component: () => import(`./home/${deviceType}/Index.vue`)
+      component: () => import(`./views/home/${deviceType}/Index.vue`)
     },
     {
-      path: '/event01',
-      name: 'event01',
-      component: () => import(`./event01/${deviceType}/Index.vue`)
+      path: '/about',
+      name: 'about',
+      component: () => import(`./views/about/${deviceType}/Index.vue`)
     },
     {
-      path: '/event02',
-      name: 'event02',
-      component: () => import(`./event02/${deviceType}/Index.vue`)
+      path: '/portfolio',
+      name: 'portfolio',
+      component: () => import(`./views/portfolio/${deviceType}/Index.vue`)
     }
   ]
 });

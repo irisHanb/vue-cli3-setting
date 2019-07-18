@@ -1,24 +1,19 @@
 const metaInfo = {
-  title: 'vue-cli3-setting :: Portfolio',
+  title: 'vue-cli3-setting :: Home',
   meta: [
     {
       property: 'og:title',
-      content: 'vue-cli3-setting> Open Graph title',
+      content: 'Home',
       vmid: 'og:title'
     },
     {
-      property: 'og:type',
-      content: 'website',
-      vmid: 'og:type'
-    },
-    {
       property: 'og:url',
-      content: 'https://irishanb.github.io/vue-cli3-setting/event02',
+      content: 'http://hanbrang.dothome.co.kr',
       vmid: 'og:url'
     },
     {
       property: 'og:description',
-      content: 'vue-cli3-setting 시 Open Graph Description',
+      content: 'Home Description',
       vmid: 'og:description'
     },
     {

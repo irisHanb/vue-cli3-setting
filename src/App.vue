@@ -2,8 +2,8 @@
   <div id="app">
     <div class="nav">
       <router-link to="/">Intro</router-link>|
-      <router-link to="/event01">About</router-link>|
-      <router-link to="/event02">Portfolio</router-link>
+      <router-link to="/about">About</router-link>|
+      <router-link to="/portfolio">Portfolio</router-link>
     </div>
     <transition name="fade" mode="out-in">
       <router-view></router-view>
