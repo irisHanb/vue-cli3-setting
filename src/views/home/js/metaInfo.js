@@ -19,7 +19,7 @@ const metaInfo = {
     {
       property: 'og:image',
       content:
-        'https://images.unsplash.com/photo-1416432969026-7e41a751ee1e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60',
+        'https://images.unsplash.com/photo-1560593993-8956ef8f7adf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=60',
       vmid: 'og:image'
     }
   ]

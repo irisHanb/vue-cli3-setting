@@ -22,6 +22,7 @@ export default {
   height: 100%;
   outline: 1px solid blue;
   background-color: #c2255c;
+  background-size: cover;
 
   .section {
     &__texts {
